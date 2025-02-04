@@ -35,7 +35,7 @@ wget http://fishros.com/install -O fishros && . fishros
 Ensure your Realsense-ros environment is set up by following the [librealsense 2.50.0 realsense-ros 2.3.2](https://gitee.com/linClubs/librealsense-2.50.0) till STEP2.
 ```bash
 # install librealsense-2.50.0
-sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev 
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
 
 git clone https://gitee.com/linClubs/librealsense-2.50.0.git
 cd librealsense-2.50.0
@@ -152,14 +152,14 @@ To operate the ARX robotic arms in a master-slave configuration for teaching and
 1. **Launch rgbd.launch**
 
     ```bash
-    roslaunch realsense2_camera rs_rgbd.launch 
+    roslaunch realsense2_camera rs_rgbd.launch
     ```
-    
-    The wrapper of relasense-ros in our code has been updated, which means it can support d405 camera in ROS1.  
+
+    The wrapper of relasense-ros in our code has been updated, which means it can support d405 camera in ROS1.
 
 ## 4. Additional Information
 
-- **Reference Repository:** 
+- **Reference Repository:**
   - [ARX_R5 GitHub repository](https://github.com/ARXroboticsX/ARX_R5).
 
   - [librealsense 2.50.0 realsense-ros 2.3.2(ros1) Gitee repository](https://gitee.com/linClubs/librealsense-2.50.0).
